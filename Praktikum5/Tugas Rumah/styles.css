@@ -24,7 +24,6 @@
 }
 
 html {
-  /* footer support */
   position: relative;
   min-height: 100%;
 }
@@ -34,7 +33,6 @@ body {
   color: var(--font);
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  /* footer support */
   margin-bottom: 100px;
 }
 
@@ -46,8 +44,6 @@ button {
   cursor: pointer;
   outline: none;
 }
-
-/* MAIN */
 
 .main {
   display: flex;
@@ -138,14 +134,11 @@ button {
   background-color: var(--btn-blue-active);
 }
 
-/* Disables input spinners in calc screen */
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-/* FOOTER */
 
 .footer {
   position: absolute;
