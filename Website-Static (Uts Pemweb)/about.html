@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas Koding</title>
+    <link rel="shortcut icon" href="/images/Logocode.jpg">
+    <link rel="stylesheet" href="/about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f75842;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.js">
+                <img src="/images/Logocode.jpg">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">Team</a></li>
+                <li><a href="courses.html">Kelas</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <section class="about_achievements">
+        <div class="container about_achievements_container">
+            <div class="about_achievement_left">
+                <img src="/images/10780210_19196949.png">
+            </div>
+            <div class="about_achievements_right">
+                <h1>Pencapaian</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium aut beatae odit.
+                    Error quas expedita dolorum doloribus quibusdam. Qui? Lorem ipsum dolor sit amet.</p>
+                <div class="achievement_cards">
+                    <article class="achievement_card">
+                        <span class="achievement_icon">
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                        <h3>100+</h3>
+                        <p>Kelas</p>
+                    </article>
+                    <article class="achievement_card">
+                        <span class="achievement_icon">
+                            <i class="fa-solid fa-person"></i>
+                        </span>
+                        <h3>5,000+</h3>
+                        <p>Peminat</p>
+                    </article>
+                    <article class="achievement_card">
+                        <span class="achievement_icon">
+                            <i class="fa-solid fa-award"></i>
+                        </span>
+                        <h3>25</h3>
+                        <p>Penghargaan</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="container team_container">
+            <article class="team_member">
+                <div class="team_member_image">
+                    <img src="/images/Rizki.jpg" alt="">
+                </div>
+                <div class="team_member_info">
+                    <h4>Rizkifirr</h4>
+                    <p>Mentor</p>
+                </div>
+            </article>
+            <article class="team_member">
+                <div class="team_member_image">
+                    <img src="/images/Rafael.JPG" alt="">
+                </div>
+                <div class="team_member_info">
+                    <h4>Rafael</h4>
+                    <p>Mentor</p>
+                </div>
+            </article>
+            <article class="team_member">
+                <div class="team_member_image">
+                    <img src="/images/Aisyah.jpeg" alt="">
+                </div>
+                <div class="team_member_info">
+                    <h4>Aisyah</h4>
+                    <p>Mentor</p>
+                </div>
+            </article>
+            <article class="team_member">
+                <div class="team_member_image">
+                    <img src="/images/abyannn.jpg" alt="">
+                </div>
+                <div class="team_member_info">
+                    <h4>Abyan</h4>
+                    <p>Mentor</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Mentor Table -->
+    <section class="mentor_table">
+        <div class="container">
+            <h2>Mentor Information</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Umur</th>
+                        <th>Keahlian</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rizkifirr</td>
+                        <td>25</td>
+                        <td>Web Development</td>
+                    </tr>
+                    <tr>
+                        <td>Rafael</td>
+                        <td>26</td>
+                        <td>Data Science</td>
+                    </tr>
+                    <tr>
+                        <td>Aisyah</td>
+                        <td>24</td>
+                        <td>UI/UX Design</td>
+                    </tr>
+                    <tr>
+                        <td>Abyan</td>
+                        <td>27</td>
+                        <td>Mobile Development</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <button onclick="scrollToTop()" id="scroll-to-top" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <h4 href="Index.html" class="footer_logo">Kelas <span>koding</span></h4>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">Team</a></li>
+                    <li><a href="contact.html">Kelas</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+6285648373739</p>
+                    <p>Rizkifirr@gmail.com</p>
+                </div>
+                <ul class="footer_social">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Made by IF-02-03</small>
+        </div>
+    </footer>
+    <script src="/index.js"></script>
+</body>
+
+</html>

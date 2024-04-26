@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas Koding</title>
+    <link rel="shortcut icon" href="/images/Logocode.jpg">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.js">
+                <img src="/images/Logocode.jpg">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">Team</a></li>
+                <li><a href="courses.html">Kelas</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <section class="slideshow">
+        <div class="slides">
+            <img src="/images/course8.jpg" alt="Slide 1">
+            <img src="/images/course7.jpg" alt="Slide 2">
+            <img src="/images/course6.jpg" alt="Slide 3">
+            <img src="/images/course9.jpg" alt="Slide 4">
+            <img src="/images/course10.jpg" alt="Slide 4">
+            <img src="/images/course11.jpg" alt="Slide 4">
+        </div>
+    </section>
+
+
+    <!-- Courses -->
+    <section class="courses" style="margin-top:1rem ;">
+        <h2>Rekomendasi kelas</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="/images/course18.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Desain web responsif </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque, provident laboriosam
+                        commodi labore odit distinctio a dicta ipsam! Soluta?</p>
+                    <a href="/courses.html" class="btn btn-primary ">temukan tutorial</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course_image">
+                    <img src="/images/course4.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Data Base</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque, provident laboriosam
+                        commodi labore odit distinctio a dicta ipsam! Soluta?</p>
+                    <a href="/courses.html" class="btn btn-primary ">temukan Tutorial</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course_image">
+                    <img src="/images/course5.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Web programming</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque, provident laboriosam
+                        commodi labore odit distinctio a dicta ipsam! Soluta?</p>
+                    <a href="/courses.html" class="btn btn-primary ">temukan Tutorial</a>
+                </div>
+            </article>
+            <article class="course">
+                <div class="course_image">
+                    <img src="/images/course6.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Desain UI situs web Media Sosial Responsif</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque, provident laboriosam
+                        commodi labore odit distinctio a dicta ipsam! Soluta?</p>
+                    <a href="/courses.html" class="btn btn-primary ">Temukan Tutorial</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- video -->
+    <section class="video_section">
+        <div class="container">
+            <h2>Video Tutorial</h2>
+            <div class="video_wrapper">
+                <video controls poster="/videos/Video_Poster.jpg">
+                    <source src="/videos/Tutorial1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+    <button onclick="scrollToTop()" id="scroll-to-top" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <h4 href="Index.html" class="footer_logo">Kelas <span>Koding</span></h4>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Courses</a></li>
+                    <li><a href="contact.html">Contect</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+6285648373739</p>
+                    <p>Rizkifirr@gmail.com</p>
+                </div>
+                <ul class="footer_social">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Made by IF-02-03</small>
+        </div>
+    </footer>
+    <script src="/index.js"></script>
+</body>
+
+</html>
